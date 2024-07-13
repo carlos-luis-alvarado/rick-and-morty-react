@@ -7,12 +7,13 @@ import App from '../App.jsx'
 import { Error } from '../pages/Error.jsx'
 export const router = createBrowserRouter([
   {
-    path: "rick-and-morty",
+    path: "/",
     element: <App />,
     errorElement: <Error />,
     children: [
       {
-        path: 'home',
+        path: '/',
+        index: true,
         element: <Index />
       },
       {
