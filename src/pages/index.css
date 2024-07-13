@@ -1,0 +1,8 @@
+.text-shadow {
+  text-shadow: -8px 4px 3px rgb(104, 175, 238),
+    4px -6px 6px rgba(255, 246, 68);
+}
+
+.drop-shadow-css {
+  filter: drop-shadow(0 0 1.5rem rgb(20, 220, 177));
+}
