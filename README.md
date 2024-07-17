@@ -1,5 +1,5 @@
 
-# Project Title
+# Rick and morty - encyclopedia
 
 Project using rick and morty API to get data and react.js to display it on screen
 
@@ -8,6 +8,9 @@ Project using rick and morty API to get data and react.js to display it on scree
 
 - [@carlos-luis-alvarado](https://github.com/carlos-luis-alvarado)
 
+## API
+
+- [Rick and morty](https://rickandmortyapi.com/)
 
 ## Demo
 

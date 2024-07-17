@@ -9,7 +9,7 @@ export const Error = () => {
       <h2 className='text-green-400 text-shadow font-bold  w-[15%] text-9xl'>4</h2>
     </div>
     <div className='text-center'>
-      <Link className='text-white bg-pink-500 p-2 rounded-sm' to={'/rick-and-morty/home'} >Go to home</Link>
+      <Link className='text-white bg-pink-500 p-2 rounded-sm' to={'/'} >Go to home</Link>
     </div>
   </div>
 

@@ -11,7 +11,7 @@ export const Header = () => {
   return <>
     <header className='px-8 relative z-10 w-[100%] bg-black bg-opacity-50'>
       <div className='flex justify-between items-center'>
-        <NavLink to={'./home'}>
+        <NavLink to={'./'}>
           <figure className='w-2/5'>
             <img className='' src={imgLogo}></img>
           </figure>
@@ -24,7 +24,7 @@ export const Header = () => {
             <button onClick={handleClick} className='md:hidden w-10 self-end text-white bg-red-400 p-1 rounded-sm '>
               x
             </button>
-            <li><NavLink onClick={handleClick} className='text-cyan-300 uppercase' to={'./home'}>Home</NavLink></li>
+            <li><NavLink onClick={handleClick} className='text-cyan-300 uppercase' to={'./'}>Home</NavLink></li>
             <li><NavLink onClick={handleClick} className='text-cyan-300 uppercase' to={'./characters/1'}>Characters</NavLink></li>
             <li><NavLink onClick={handleClick} className='text-cyan-300 uppercase' to={'./locations/1'}>Locations</NavLink></li>
             <li><NavLink onClick={handleClick} className='text-cyan-300 uppercase' to={'./episodes/1'}>Capitulres</NavLink></li>
